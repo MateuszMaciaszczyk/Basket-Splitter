@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        BasketSplitter splitter = new BasketSplitter("C:\\Users\\mateu\\Desktop\\stuff\\temp\\config.json");
+        BasketSplitter splitter = new BasketSplitter("src/main/resources/config.json");
 
-        List<String> items = Arrays.asList("Fond - Chocolate", "Chocolate - Unsweetened", "Nut - Almond, Blanched, Whole", "Haggis", "Mushroom - Porcini Frozen", "Cake - Miini Cheesecake Cherry", "Sauce - Mint", "Longan", "Bag Clear 10 Lb", "Nantucket - Pomegranate Pear", "Puree - Strawberry", "Numi - Assorted Teas", "Apples - Spartan", "Garlic - Peeled", "Cabbage - Nappa", "Bagel - Whole White Sesame", "Tea - Apple Green Tea");
+        List<String> items = Arrays.asList("Cocoa Butter", "Tart - Raisin And Pecan", "Table Cloth 54x72 White", "Flower - Daisies", "Fond - Chocolate", "Cookies - Englishbay Wht");
 
         System.out.println(splitter.split(items));
     }
